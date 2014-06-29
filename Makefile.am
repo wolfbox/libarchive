@@ -342,7 +342,6 @@ libarchive_test_SOURCES=					\
 	libarchive/test/test_compat_solaris_tar_acl.c		\
 	libarchive/test/test_compat_solaris_pax_sparse.c	\
 	libarchive/test/test_compat_tar_hardlink.c		\
-	libarchive/test/test_compat_uudecode.c			\
 	libarchive/test/test_compat_xz.c			\
 	libarchive/test/test_compat_zip.c			\
 	libarchive/test/test_empty_write.c			\
@@ -482,6 +481,7 @@ libarchive_test_SOURCES=					\
 	libarchive/test/test_write_format_mtree.c		\
 	libarchive/test/test_write_format_mtree_absolute_path.c	\
 	libarchive/test/test_write_format_mtree_classic.c	\
+	libarchive/test/test_compat_uudecode.c \
 	libarchive/test/test_write_format_mtree_classic_indent.c\
 	libarchive/test/test_write_format_mtree_fflags.c	\
 	libarchive/test/test_write_format_mtree_no_separator.c	\
